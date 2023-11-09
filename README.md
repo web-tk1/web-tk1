@@ -40,32 +40,8 @@
                 "nim": 1004,
                 "nama_mhs": "irpan syahputra",
                 "alamat": "palembang"
-            },
-            {
-                "nim": 1002,
-                "nama_mhs": "budi",
-                "alamat": "jepang"
-            },
-            {
-                "nim": 1002,
-                "nama_mhs": "budi",
-                "alamat": "jepang"
-            },
-            {
-                "nim": 1002,
-                "nama_mhs": "budi",
-                "alamat": "jepang"
-            },
-            {
-                "nim": 1005,
-                "nama_mhs": "budi",
-                "alamat": "jepang"
-            },
-            {
-                "nim": 1006,
-                "nama_mhs": "undefined",
-                "alamat": "jepang"
             }
+            
         ],
         "message": "get all data from tbl_mhs",
         "metadata": {
