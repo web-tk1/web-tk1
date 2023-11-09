@@ -77,7 +77,7 @@
 
 ``` json
 {
-    "nim":1002,
+    "nim":1006,
     "namaMhs": "andi",
     "alamat" :"jepang"
 }
