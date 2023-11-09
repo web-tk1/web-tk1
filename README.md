@@ -84,5 +84,62 @@
 ***
 
 ### 2. METHOD POST
+<details>
+<summary> Click to Expand </summary>
+<table>
+<tr>
+<td><b> URL </b></td>
+<td> <b style="color🍏">{{baseurl}}/mahasiswa </td>
+</tr>
+<tr>
+<td><b> Method </b></td>
+<td> POST </td>
+</tr>
+<tr>
+<td><b> Body </b></td>
+<td>
+
+``` json
+{
+    "nim":1002,
+    "namaMhs": "andi",
+    "alamat" :"jepang"
+}
+```
+</td>
+</tr>
+<tr>
+<td><b> Success Response </b></td>
+<td>
+	
+``` json
+{
+        "payload": {
+            "fieldCount": 0,
+            "affectedRows": 1,
+            "insertId": 0,
+            "serverStatus": 2,
+            "warningCount": 0,
+            "message": "",
+            "protocol41": true,
+            "changedRows": 0
+        },
+        "message": "Data berhasil disimpan",
+        "metadata": {
+            "prev": "",
+            "next": "",
+            "max": ""
+        }
+    }
+```
+
+</td>
+</tr>
+<tr>
+<td><b> Failed Response </b></td>
+<td>Error: Data sudah ada dalam database</td>
+
+
+
 
 
