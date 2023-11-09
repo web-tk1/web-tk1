@@ -114,6 +114,9 @@
 <tr>
 <td><b> Failed Response </b></td>
 <td>Error: Data sudah ada dalam database</td>
+</tr>
+</table>
+</details>
 
 
 
