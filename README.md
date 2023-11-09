@@ -80,6 +80,9 @@
 </td>
 </table>
 </details>
+
+***
+
 ### 2. METHOD POST
 
 
