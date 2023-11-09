@@ -118,6 +118,129 @@
 </table>
 </details>
 
+***
+### 3. METHOD PUT
+<details>
+<summary> Click to Expand </summary>
+<table>
+<tr>
+<td><b> URL </b></td>
+<td> <b style="color🍏">{{baseurl}}/mahasiswa </td>
+</tr>
+<tr>
+<td><b> Method </b></td>
+<td> PUT </td>
+</tr>
+<tr>
+<td><b> Body </b></td>
+<td>
+
+``` json
+{
+    "nim":1006,
+    "namaMhs": "UDIN",
+    "alamat" :"jepang"
+}
+```
+</td>
+</tr>
+<tr>
+<td><b> Success Response </b></td>
+<td>
+	
+``` json
+
+    {
+        "payload": {
+            "fieldCount": 0,
+            "affectedRows": 0,
+            "insertId": 0,
+            "serverStatus": 34,
+            "warningCount": 0,
+            "message": "(Rows matched: 0  Changed: 0  Warnings: 0",
+            "protocol41": true,
+            "changedRows": 0
+        },
+        "message": "Data berhasil diupdate",
+        "metadata": {
+            "prev": "",
+            "next": "",
+            "max": ""
+        }
+    }
+```
+
+</td>
+</tr>
+<tr>
+<td><b> Failed Response </b></td>
+<td>Internal Server Error</td>
+
+</tr>
+</table>
+</details>
+
+***
+### 4. METHOD DELETE
+<details>
+<summary> Click to Expand </summary>
+<table>
+<tr>
+<td><b> URL </b></td>
+<td> <b style="color🍏">{{baseurl}}/mahasiswa </td>
+</tr>
+<tr>
+<td><b> Method </b></td>
+<td> DELETE </td>
+</tr>
+<tr>
+<td><b> Body </b></td>
+<td>
+
+``` json
+{
+    "nim":1006,
+    
+}
+```
+</td>
+</tr>
+<tr>
+<td><b> Success Response </b></td>
+<td>
+	
+``` json
+ {
+        "payload": {
+            "fieldCount": 0,
+            "affectedRows": 0,
+            "insertId": 0,
+            "serverStatus": 34,
+            "warningCount": 0,
+            "message": "",
+            "protocol41": true,
+            "changedRows": 0
+        },
+        "message": "Data berhasil dihapus",
+        "metadata": {
+            "prev": "",
+            "next": "",
+            "max": ""
+        }
+    }
+```
+
+</td>
+</tr>
+
+</table>
+</details>
+
+***
+
+
+
+
 
 
 
